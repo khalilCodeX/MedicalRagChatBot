@@ -2,6 +2,10 @@ import os
 import getpass
 from openai import OpenAI
 from qdrant_client import QdrantClient, models
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 def get_openai_client():

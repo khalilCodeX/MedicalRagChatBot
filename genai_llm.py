@@ -118,7 +118,4 @@ Context from similar medical cases:
             }
         )
 
-        self.chat_history.append(HumanMessage(content=user_prompt))
-        self.chat_history.append(AIMessage(content=response))
-
         return response

@@ -209,3 +209,16 @@ __marimo__/
 # csv
 *.csv
 *.csv:Zone.Identifier
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Environment variables
+.env
+.env.local
+.env.*.local
